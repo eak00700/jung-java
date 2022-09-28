@@ -1,12 +1,12 @@
 package day16;
-//지역변수 : 그'지역(local)'에서만 사용가능한 변수
+//지역변수 : 그'지역(local)'에서만 사용가능한 변수 //local varialbe
 //          ---->"지역변수의 유효범위(scope)"
 //예를들어
 //1. 메서드의 파리미터 ---> 해당 메서드의 중괄호{} 안에서만 살아있음.
 //2. for문의 괄호()안에서 선언 ---> 해당for문안에서만 살아있음.
 //3. if문의 중괄호{} 안에서 선언되면 ---> 해당 if문의 중괄호{} 안에서만 살아있음.
 public class Ex1601 {
-    static void m(int num){ // num -> 파라미터
+    static void m(int num){ // num -> 파라미터 (매개변수)
         System.out.println(num);
         
     }
