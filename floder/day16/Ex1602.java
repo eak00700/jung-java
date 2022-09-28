@@ -9,6 +9,7 @@ public class Ex1602 {
         int num = 5;
         m();
         System.out.println(num);
+        
     }
     
 }
