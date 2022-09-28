@@ -18,6 +18,7 @@ public class Ex1601 {
         // System.out.println("i : "+ i); // ERR. i는 for문 안에서의 변수이기때문에 for문을 나와서는 선언된적이 없기때문에 에러
         if(1==1){
             int num = 55;
+            
         }
         // System.out.println("num : "+ num); // ERR. if문을 나왔기때문에 num변수가 선언되지 않음
     }
