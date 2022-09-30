@@ -35,8 +35,8 @@ public class Ex1805 {
         String s = sc.next();
         System.out.println("커피 가격을 입력해주세요 >>");
         int n = sc.nextInt();
-        list.add()
-        Coffee coffee = new Coffee(s, n);
+        list.add (new Coffee(s, n));
+        
 
     }
     static void searchCoffeeByName() {
