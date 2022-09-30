@@ -46,14 +46,20 @@ public class Ex1805 {
         if(s.equals(list.get(i).name)){
             list.get(i).print();
             break;
+        }else{
+            System.out.println("없음!");
+            break;
         }
         }
     }
     static void deleteCoffeeByIndex(){
         System.out.print("인덱스 번호를 입력해주세요");
         int i = sc.nextInt();
+        if(i<list.size()){
         list.remove(list.get(i));
-        
+        }else{
+            System.out.println("존재하지않는 인덱스 번호입니다.");
+        }
 
     }
     static void showMenu(){
