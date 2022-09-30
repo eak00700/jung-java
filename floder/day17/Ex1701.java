@@ -29,6 +29,7 @@ public class Ex1701 {
         p2.y = sc.nextInt();
         System.out.println("두 점 사이의 거리는 :"+p1.dist(p2.x, p2.y));
         
+        
         System.out.println("점#1("+p1.x+","+p1.y+") ~ 점#2("+p2.x+","+p2.y+")의 거리 = "+p2.dist(p1.x, p1.y));
 
     }
