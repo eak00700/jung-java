@@ -32,6 +32,5 @@ public class Ex1701 {
         
         System.out.println("점#1("+p1.x+","+p1.y+") ~ 점#2("+p2.x+","+p2.y+")의 거리 = "+p2.dist(p1.x, p1.y));
 
-        System.out.println(p1);
     }
 }
