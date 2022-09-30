@@ -51,3 +51,11 @@ int arr[] = new int[3];
 0.종료
 --------------------
 실행할 메뉴 입력 >>> 
+
+https://us02web.zoom.us/rec/share/Lah8OOlr8iWa_j_dj01RA-KTw3l_RKvagB3f4xDe5yp7LORl4mA__S8Mod2cqW3F.d0vcR9k17MnTJiwE 
+
+암호: Jung-W5-D5
+
+https://us02web.zoom.us/rec/share/0Lg9tOYc9hiSH_NeCrJfGMZPe8gpbCsOkT5gWM5XQckB4OMasGZd_g75t7jT2fs.eovwMI50eh3kf4cd 
+
+암호: Jung-W5-D5-2
