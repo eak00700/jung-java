@@ -37,11 +37,12 @@ int arr[] = new int[3];
           String name, id, password;
           int phone, idx;
      }
-2. 상품관리 프로그램
-     Item클래스 + ArrayList<Item>
-     class Item{
-          상품명, 수량, 가격
-     }
+2. 성적관리 프로그램
+	Score클래스 + ArrayList<Score>
+	class Score {
+		이름, 학번, 자바점수, C점수, 파이썬점수, ...
+	}
+
 (ex) 회원관리 프로그램
 ---------------------
 1. 전체회원조회
