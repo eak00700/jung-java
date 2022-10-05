@@ -73,9 +73,9 @@ public class Q1801 {
     }
     static void deleteUserByIdx(){
         System.out.print("삭제할 유저의 Idx번호를 입력해주세요 >>");
-        String s = sc.next();
-        if(s.equals(user.get(idx))){
-            user.remove(s);
+        int s = sc.nextInt();
+        if(s<user.size()){
+            user.remove(user.get(s));
         }
 
     }
