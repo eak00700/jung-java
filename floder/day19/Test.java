@@ -2,6 +2,8 @@ package day19;
 
 public class Test {
     public static void main(String[] args) {
+
+        //String : 'immutable' object.
         
         // String s1 = "정처산기";
         // String s2 = "웹개발";
@@ -23,7 +25,8 @@ public class Test {
         System.out.println(s6.equals(s7)); //true
         System.out.println(s7.equals(s8));//true
         System.out.println(s6 == s7); // 참조값의 비교 -> true
-        System.out.println(s7==s8); // false
+        System.out.println(s7==s8); // false(이해)
+
 
         
     }
