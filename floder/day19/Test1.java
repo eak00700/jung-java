@@ -64,11 +64,11 @@ public class Test1 {
         System.out.println(str.indexOf("~")); // -1(없음)
 
         // .replace(old문자열, new문자열)
-        // str.replace("_", " ") // 이해(고급) : 문자열은 immutable한 객체이기때문에
+        //str.replace("_", " "); // 이해(고급) : 문자열은 immutable한 객체이기때문에
                                                 // 이런 식의 사용은 불가능 함
         str = str.replace("_", " "); // 이해(고급) : 문자열의 내용을 변경하는 이런 메서드들의 사용은, 이렇게 리턴값을 받는 형태로!
         System.out.println(str);
-        // System.out.println(str.replace("_", " "));
+        System.out.println(str.replace("_", " "));
     }
     
 }
