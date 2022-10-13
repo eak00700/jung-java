@@ -12,7 +12,7 @@ class Point{
     static void showCnt(){ //클래스 메서드
         System.out.println("cnt : "+cnt);
     }
-     void showMe(){
+    /* static */void showMe(){ //인스턴스메서드 가능, BUT 클래스메서드 불가능
     System.out.println("점 객체 ("+x+","+y+").");
     }
 }

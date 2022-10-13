@@ -1,6 +1,5 @@
 package day20;
 
-import java.time.Clock;
 
 // AA클래스를 보면서 변수와 메서드를 말할수있어야함.
 class AA{
@@ -23,8 +22,8 @@ public class Ex2001 {
         AA aa = new AA();
         aa.a = 100;
         aa.m();
-        System.out.println(aa.b); // 권장 x
-        aa.m2(); //권장 x
+        // System.out.println(aa.b); // 권장 x
+        // aa.m2(); //권장 x
 
     }
 }
